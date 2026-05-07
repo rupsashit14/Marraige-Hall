@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gokul Marriage Hall</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet"/>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">🪷 Gokul Marriage Hall</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#video">Video</a></li>
+    <li><a href="#amenities">Amenities</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="venue.mp4" type="video/mp4" />
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-tag">✦ Welcome to ✦</div>
+    <h1>Gokul <span>Marriage Hall</span></h1>
+    <p>Where Every Celebration Becomes a Cherished Memory</p>
+    <a href="#gallery" class="btn">View Gallery</a>
+    <a href="#contact" class="btn btn-outline">Book Now</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-label">Who We Are</div>
+  <h2 class="section-title">A Venue Like No Other</h2>
+  <div class="section-line"></div>
+  <div class="about-grid">
+    <div class="about-img">
+      <img src="img8.jpeg" alt="Gokul Marriage Hall exterior" />
+    </div>
+    <div class="about-text">
+      <h2>Crafted for Your Special Day</h2>
+      <p>Gokul Marriage Hall is a premier wedding and event venue designed to make your most important celebrations truly unforgettable. With elegant architecture inspired by tradition and modern comfort, our hall offers a warm, majestic setting for weddings, receptions, and grand family gatherings.</p>
+      <p>Nestled in a spacious compound with beautifully paved grounds, decorative landscaping, and a dedicated covered area, our venue is fully equipped to host your entire celebration under one roof.</p>
+      <p>From the grand entrance gate to the lush courtyard and the ornate main hall, every corner of Gokul Marriage Hall reflects beauty, grace, and hospitality.</p>
+      <a href="#contact" class="btn" style="margin-top:10px;">Enquire Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-number">4,000</div>
+      <div class="stat-label">Sq. Ft. Total Area</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">120+</div>
+      <div class="stat-label">Seating Capacity</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">8</div>
+      <div class="stat-label">Guest Rooms</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">10</div>
+      <div class="stat-label">Bathrooms</div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-label">Our Venue</div>
+  <h2 class="section-title">Gallery</h2>
+  <div class="section-line"></div>
+  <div class="gallery-grid">
+    <div class="gallery-item" onclick="openLightbox('img1.jpeg')">
+      <img src="img1.jpeg" alt="Aerial view 1" />
+      <div class="overlay"><span class="overlay-icon">🔍</span></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('img2.jpeg')">
+      <img src="img2.jpeg" alt="Aerial view 2" />
+      <div class="overlay"><span class="overlay-icon">🔍</span></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('img3.jpeg')">
+      <img src="img3.jpeg" alt="Side view" />
+      <div class="overlay"><span class="overlay-icon">🔍</span></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('img4.jpeg')">
+      <img src="img4.jpeg" alt="Front view" />
+      <div class="overlay"><span class="overlay-icon">🔍</span></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('img5.jpeg')">
+      <img src="img5.jpeg" alt="Back view" />
+      <div class="overlay"><span class="overlay-icon">🔍</span></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('img6.jpeg')">
+      <img src="img6.jpeg" alt="Marriage Hall Sign" />
+      <div class="overlay"><span class="overlay-icon">🔍</span></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('img7.jpeg')">
+      <img src="img7.jpeg" alt="Front facade" />
+      <div class="overlay"><span class="overlay-icon">🔍</span></div>
+    </div>
+    <div class="gallery-item" onclick="openLightbox('img8.jpeg')">
+      <img src="img8.jpeg" alt="Courtyard view" />
+      <div class="overlay"><span class="overlay-icon">🔍</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section id="video">
+  <div class="section-label">Virtual Tour</div>
+  <h2 class="section-title">See the Hall in Action</h2>
+  <div class="section-line"></div>
+  <div class="video-wrap">
+    <video controls poster="img1.jpeg">
+      <source src="venue.mp4" type="video/mp4" />
+    </video>
+  </div>
+</section>
+
+<!-- AMENITIES -->
+<section id="amenities">
+  <div class="section-label">Facilities</div>
+  <h2 class="section-title">Everything You Need</h2>
+  <div class="section-line"></div>
+  <div class="amenities-grid">
+    <!-- SAME content -->
+    <!-- (unchanged, skipped repetition for length but you keep yours exactly) -->
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label" style="color:var(--gold)">Get in Touch</div>
+  <h2 class="section-title">Book Your Date</h2>
+  <div class="section-line"></div>
+  <div class="contact-wrap">
+    <div class="contact-info">
+      <h3>Gokul Marriage Hall</h3>
+      <div class="contact-detail">
+        <div class="icon">📍</div>
+        <div class="info">
+          <strong>Address</strong>
+          <span>Gokul Marriage Hall, Shyampalli Lane no 2,Bankura, West Bengal, India</span>
+        </div>
+      </div>
+      
+  <!-- Phone -->
+  <div class="contact-detail">
+    <div class="icon">📞</div>
+    <div class="info">
+      <strong>Phone / WhatsApp</strong>
+      <span>
+        <a href="tel:+9199999999" style="color:var(--gold);text-decoration:none;">
+          +91 99999 99999
+        </a>
+      </span>
+    </div>
+  </div>
+
+  <!-- Availability -->
+  <div class="contact-detail">
+    <div class="icon">🕐</div>
+    <div class="info">
+      <strong>Availability</strong>
+      <span>Open all days · 8:00 AM – 10:00 PM</span>
+    </div>
+  </div>
+
+  <!-- Events -->
+  <div class="contact-detail">
+    <div class="icon">💍</div>
+    <div class="info">
+      <strong>Events Hosted</strong>
+      <span>Weddings · Receptions · Engagements · Family Functions</span>
+    </div>
+  </div>
+
+  <!-- Image -->
+  <div style="margin-top:30px;">
+    <img src="img6.jpeg" alt="Gokul Marriage Hall Sign"
+         style="width:100%;border-radius:4px;border:2px solid rgba(201,168,76,0.4);"/>
+  </div>
+
+</div>
+    </div>
+
+    <div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <input type="text" placeholder="Your Full Name" required />
+        <input type="tel" placeholder="Your Phone Number" required />
+        <input type="email" placeholder="Email Address (optional)" />
+        <input type="date" required />
+        <textarea placeholder="Tell us about your event"></textarea>
+        <button type="submit">Send Enquiry ✦</button>
+        <div class="success-msg" id="successMsg">✅ Thank you! We'll contact you shortly.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 <span>Gokul Marriage Hall</span></p>
+</footer>
+
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <div class="lightbox-close" onclick="closeLightbox()">✕</div>
+  <img id="lightbox-img" src="" />
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
